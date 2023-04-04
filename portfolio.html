@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -23,129 +23,149 @@
 
 <body>
     <header class="header">
-        <nav class="hader-nav">
-            <a class="link-logo link" href="./index.html">Web<span class="logo-text">Studio</span></a>
-            <ul class="heder-list list">
-                <li class="heder-item"><a class="heder-link link" href="./index.html">Studio</a></li>
-                <li class="heder-item"><a class="heder-link link" href="./portfolio.html">Portfolio</a></li>
-                <li class="heder-item"><a class="heder-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="address">
-            <ul class="address-list list">
-                <li class="address-item">
-                    <a class="address-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="address-item">
-                    <a class="address-contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
+        <div class="container">
+            <nav class="hader-nav container">
+                <a class="link-logo logo link" href="./index.html">Web<span class="logo-text logo">Studio</span></a>
+                <ul class="heder-list list">
+                    <li class="heder-item"><a class="heder-link link " href="./index.html">Studio</a></li>
+                    <li class="heder-item"><a class="heder-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="heder-item"><a class="heder-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="address container">
+                <ul class="address-list list">
+                    <li class="address-item">
+                        <a class="address-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="address-contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
 
-        </address>
+            </address>
+        </div>
     </header>
 
     <main>
 
         <!-- Section 1 -->
-        <section>
+        <section class="section-portfolio">
             <h1 hidden>Menu</h1>
+            <div class="container">
+                <ul class="portfolio-list list">
+                    <li class="portfolio-item">
+                        <button type="button" class="btn-port">All</button>
 
-            <ul class="portfolio-list list">
-                <li class="portfolio-item">
-                    <button type="button" class="btn-port">All</button>
+                    </li>
 
-                </li>
+                    <li class="portfolio-item">
+                        <button type="button" class="btn-port">Web Site</button>
+                    </li>
+                    <li class="portfolio-item">
+                        <button type="button" class="btn-port">App</button>
+                    </li>
+                    <li class="portfolio-item">
+                        <button type="button" class="btn-port">Design</button>
+                    </li>
+                    <li class="portfolio-item">
+                        <button type="button" class="btn-port">Marketing</button>
+                    </li>
+                </ul>
 
-                <li class="portfolio-item">
-                    <button type="button" class="btn-port">Web Site</button>
-                </li>
-                <li class="portfolio-item">
-                    <button type="button" class="btn-port">App</button>
-                </li>
-                <li class="portfolio-item">
-                    <button type="button" class="btn-port">Design</button>
-                </li>
-                <li class="portfolio-item">
-                    <button type="button" class="btn-port">Marketing</button>
-                </li>
-            </ul>
+                <!-- Link -->
+                <ul class="menu-list list">
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img1.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                            <h2 class="menu-title">Banking App Interface Concept</h2>
+                            <p class="menu-text">App</p>
+                           </div>
+                        </a>
 
-            <!-- Link -->
-            <ul class="menu-list list">
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img1.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Banking App Interface Concept</h2>
-                        <p class="menu-text">App</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img2.jpg" alt="image" width="360" height="300">
+                            <div class="menu-name">
+                                <h2 class="menu-title">Cashless Payment</h2>
+                            <p class="menu-text">Marketing</p>
+                            </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img2.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Cashless Payment</h2>
-                        <p class="menu-text">Marketing</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img3.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                            <h2 class="menu-title">Meditation App</h2>
+                            <p class="menu-text">App</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img3.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Meditation App</h2>
-                        <p class="menu-text">App</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img4.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                            <h2 class="menu-title">Taxi Service</h2>
+                            <p class="menu-text">Marketing</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img4.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Taxi Service</h2>
-                        <p class="menu-text">Marketing</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img5.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                            <h2 class="menu-title">Screen Illustrations</h2>
+                            <p class="menu-text">Design</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img5.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Screen Illustrations</h2>
-                        <p class="menu-text">Design</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img6.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                             <h2 class="menu-title">Online Courses</h2>
+                            <p class="menu-text">Marketing</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img6.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Online Courses</h2>
-                        <p class="menu-text">Marketing</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img7.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                             <h2 class="menu-title">Instagram Stories Concept</h2>
+                            <p class="menu-text">Design</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img7.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Instagram Stories Concept</h2>
-                        <p class="menu-text">Design</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img8.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                             <h2 class="menu-title">Organic Food</h2>
+                            <p class="menu-text">Web Site</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img8.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Organic Food</h2>
-                        <p class="menu-text">Web Site</p>
-                    </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" href="">
+                            <img src="./images/Project/img9.jpg" alt="image" width="360" height="300">
+                           <div class="menu-name">
+                             <h2 class="menu-title">Fresh Coffee</h2>
+                            <p class="menu-text">Web Site</p>
+                           </div>
+                        </a>
 
-                </li>
-                <li class="menu-item">
-                    <a class="link" href="">
-                        <img src="./images/Project/img9.jpg" alt="image" width="360" height="300">
-                        <h2 class="menu-title">Fresh Coffee</h2>
-                        <p class="menu-text">Web Site</p>
-                    </a>
-
-                </li>
-            </ul>
-
+                    </li>
+                </ul>
+            </div>
         </Section>
     </main>
 
