@@ -53,8 +53,13 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 
+  }
 
-
+  .nav-container {
+    display: flex;
+    align-items: center;
+    
+    
 }
 
 
@@ -76,28 +81,32 @@ img {
 
 .link-logo {
 
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--color-iris);
+   
+
+}
+
+.logo-text { 
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-}
-
-.logo-text {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     color: var(--color-navy-blue);
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+   
 
 }
 
@@ -352,7 +361,7 @@ img {
 }
 
 .link-logo {
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
     
 }
